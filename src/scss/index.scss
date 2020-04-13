@@ -1,0 +1,29 @@
+//  Fonts
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../assets/Fonts/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../assets/Fonts/Montserrat-SemiBold.otf);
+}
+
+//  Utilities
+@import './utilities/layout';
+@import './utilities/variables';
+@import './utilities/mixins';
+
+//  Components
+@import './Components/header';
+@import './Components/footer';
+
+//  containers
+@import './containers/home';
+@import './containers/aboutUs';
+@import './containers/equipment';
+@import './containers/parts';
+@import './containers/automation';
+@import './containers/projects';
+@import './containers/contacts';

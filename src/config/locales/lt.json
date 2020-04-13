@@ -1,0 +1,72 @@
+{
+  "navigation": {
+    "home": "Pradžia",
+    "about": "Apie mus",
+    "equipment": "Įrenginiai",
+    "parts": "Detalės",
+    "automation": "Automatika",
+    "projects": "Įvykdyti projektai",
+    "contacts": "Kontaktai"
+  },
+  "home": {
+    "carousel01": {
+      "title": "ĮRENGINIAI IR JŲ AUTOMATIZAVIMAS",
+      "text01": "Projektuojame ir gaminame",
+      "text02": "pagal individualius poreikius",
+      "text03": "pritaikytus įvairios",
+      "text04": "paskirties įrenginius.",
+      "text05": "Atliekame automatizavimo darbus."
+    },
+    "carousel02": {
+      "title": "DETALĖS",
+      "text01": "Gaminame detales bei jų prototipus",
+      "text02": "pagal pateiktus brėžinius ar pavyzdžius.",
+      "text03": "Teikiame mechaninio apdirbimo paslaugas."
+    },
+    "info": {
+      "text01": "UAB „Techranga“ - Įmonė nuolat tobulinanti atliekamų darbų kokybę,",
+      "text02": "siekianti patenkinti užsakovų keliamus reikalavimus ir lūkesčius,",
+      "text03": "operatyviai prisitaikanti prie besikeičiančių sąlygų."
+    }
+  },
+  "about": {
+    "text01": "UAB „Techranga“ ypatingą dėmesį skiria darbų kokybei, aplinkos apsaugai bei darbuotojų saugai ir sveikatai. Tuo vadovaudamiesi kasdien priimame sprendimus, siekiame įgyvendinti lanksčią kainodarą, tobulinti gamybos procesus, ieškoti efektyviausių ir optimaliausių užduočių sprendimų. Stengiamės reaguoti lanksčiai ir operatyviai, bei patenkinti net išrankiausių klientų poreikius.",
+    "text02": "UAB „Techranga“ projektuoja ir gamina įrenginius, detales, teikia mechaninio apdirbimo paslaugas bei vykdo automatizacijos projektus įvairių pramonės šakų įmonėms. Gamyba vykdoma nuo mažos detalės iki gamybinės linijos. Detalės gaminamos tiek vienetais, tiek didesniais kiekiais.",
+    "text03": "Siekdami sustiprinti savo pozicijas rinkoje ir patenkinti klientų poreikius, įmonėje įdiegėme integruotą Kokybės, aplinkosaugos ir DSS vadybos sistemas pagal LST EN ISO 9001:2015, LST EN ISO 14001:2015 ir LST EN ISO 45001:2018 standartus."
+  },
+  "equipment": {
+    "text01": "Pagal Užsakovo techninę užduotį projektuojame ir gaminame pagal individualius poreikius pritaikytus įvairios paskirties įrenginius, skirtus įvairioms pramonės šakoms. Galime pateikti tiek mechaninę įrenginio dalį, gaminamą iš plieno, nerūdijančio plieno ar kitų medžiagų, tiek pilnai automatizuotą įrenginį. Projektuojame naujai ar gaminame įrenginius pagal esamus pavyzdžius ar kliento pateiktus brėžinius. Projektuojame ir gaminame:",
+    "list01": "įvairios paskirties konvejerius, transporterius, transportavimo sistemas;",
+    "list02": "vibro-sijotuvus;",
+    "list03": "manipuliatorius;",
+    "list04": "pusautomačius;",
+    "list05": "gręžimo galvutes;",
+    "list06": "štampus, liejimo formas;",
+    "list07": "konstrukcijas;",
+    "list08": "kitus gamybai skirtus įrenginius bei gamybos linijas;",
+    "text02": "Taip pat teikiame įrenginių rekonstrukcijos ar remonto paslaugas."
+  },
+  "parts": {
+    "text01": "Pagal klientų užsakymus gaminame įvairias detales bei detalių prototipus pagal pateiktus brėžinius ar pavyzdžius. Detales gaminame iš įvairių metalų ar plastikų tiek vienetais tiek didesniais kiekiais. Taip pat teikiame mechaninio apdirbimo paslaugas:",
+    "list01": "CNC tekinimas;",
+    "list02": "CNC frezavimas;",
+    "list03": "Plokščias ir apvalus šlifavimas;",
+    "list04": "Erozinis (EDM) pjovimas viela;",
+    "list05": "Šaltkalviški ir surinkimo darbai;",
+    "list06": "Plieno, nerūdijančio plieno, aliuminio, ketaus suvirinimas (TIG / MIG);",
+    "list07": "Terminis detalių apdirbimas;"
+  },
+  "automation": {
+    "text01": "Atliekame gaminamų įrenginių valdymo sistemų projektavimą, surinkimą, montavimą ir paleidimą.",
+    "text02": "Taip pat pagal kliento pageidavimus galime atnaujinti ir senų įrenginių valdymo sistemas."
+  },
+  "projects": {
+    "text01": "Daugiau informacijos rasite:"
+  },
+  "contacts": {
+    "title": "UAB „Techranga“",
+    "text01": "Įmonės kodas: 300556637",
+    "text02": "PVM mokėtojo kodas: LT 100002311019",
+    "address": "LT-51241 Kaunas, Lietuva"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "navigation": {
+    "home": "Zuhause",
+    "about": "Über uns",
+    "equipment": "Herstellung von Anlagen",
+    "parts": "Herstellung von Bauteilen",
+    "automation": "Automatisierung",
+    "projects": "Abgeschlossene Projekte",
+    "contacts": "Kontakte"
+  },
+  "home": {
+    "carousel01": {
+      "title": "PROJEKTIERUNG UND HERSTELLUNG VON ANLAGEN AUTOMATISIERUNG",
+      "text01": "Wir beschäftigen uns mit Projektierung",
+      "text02": "von Anlagen",
+      "text03": "und mit Herstellung unterschiedlicher",
+      "text04": "Anlagen für verschiedene Produktionszweige,",
+      "text05": "angepasst der individuellen Bedürfnisse."
+    },
+    "carousel02": {
+      "title": "HERSTELLUNG VON BAUTEILEN",
+      "text01": "Wir beschäftigen uns mit Herstellung unterschiedlicher",
+      "text02": "Bauteile und Einzelteilprototypen gemäß den Aufträgen, Aufrissen bzw.",
+      "text03": "Wir bieten unterschiedliche Dienstleistungen im Bereich der mechanischen Bearbeitung an."
+    },
+    "info": {
+      "text01": "UAB „Techranga“ ist das Unternehmen, welches sich in Qualitätssicherung für Bauarbeiten immer wieder vervollkommnet,",
+      "text02": "strebt nach Erfüllung der Anforderungen und Erwartungen der Auftraggeber,",
+      "text03": "sich an wechselnden Bedingungen anpasst."
+    }
+  },
+  "about": {
+    "text01": "UAB „Techranga“ schenkt eine besondere Aufmerksamkeit auf Qualität der Arbeiten, Umweltschutz und Sicherheit und Hygiene der Arbeitnehmer. Auf dieser Grundlage treffen wir die Entscheidungen, streben nach Verwirklichung flexibler Preisbildung, Vervollkommnung der Betriebsprozesse, Suche der meist effektivsten und optimalsten Aufgabenlösungen. Unser Zweck ist, flexibel und operativ zu reagieren und die Bedürfnisse unserer sogar am wählerischsten Kunden zu befriedigen.",
+    "text02": "UAB „Techranga“ beschäftigt sich mit Projektierung und Herstellung der Anlagen, Bauteile, Erbringung von Dienstleistungen im Bereich der mechanischen Bearbeitung und Ausführung der Automatisierungsprojekte für industrielle Unternehmen. Die Herstellung umfasst die kleinsten Bauteilen bis Produktionslinien. Die Bauteile werden in Einzelstücken und in größeren Mengen hergestellt.",
+    "text03": "Damit wir unsere Positionen auf dem Markt verstärken und Nachfrage unserer Kunden befriedigen könnten, haben wir das integrierte Managementsystem zur Qualität, Umweltschutz und Sicherheit und  Gesundheitsschutz gemäß den Standards LST EN ISO 9001:2015, LST EN ISO 14001:2015 ir LST EN ISO 45001:2018 eingeführt."
+  },
+  "equipment": {
+    "text01": "Wir beschäftigen uns mit Projektierung von Anlagen gemäß der technischen Aufgabe des Auftraggebers und mit Herstellung unterschiedlicher Anlagen für verschiedene Produktionszweige, angepasst der individuellen Bedürfnisse. Wir stellen nicht nur einen mechanischen Teil der Anlage aus Stahl, nichtrostendem Stahl bzw. sonstigen Stoffen, sondern auch die völlig automatisierte Anlage her. Unsere Tätigkeit umfasst dabei auch Herstellung neuer bzw. nach den Mustern und Aufrissen des Kunden projektierte Anlagen. Wir projektieren und herstellen folgendes:",
+    "list01": "förderanlagen, transportförderer, transportierungssysteme für unterschiedliche nutzungszwecke;",
+    "list02": "vibro-siebanlagen;",
+    "list03": "manipulationstechnik;",
+    "list04": "halbautomatische maschinen;",
+    "list05": "bohrköpfe;",
+    "list06": "stempel, gießformen;",
+    "list07": "konstruktionen;",
+    "list08": "sonstige herstellungsanlagen und produktionslinien;",
+    "text02": "Außerdem bieten wir andere dienstleistungen für rekonstruktion bzw. Reparatur der Anlagen."
+  },
+  "parts": {
+    "text01": "Wir beschäftigen uns mit Herstellung unterschiedlicher Bauteile und Einzelteilprototypen gemäß den Aufträgen, Aufrissen bzw. Mustern unserer Kunden. Die Bauteile werden aus unterschiedlicher Metalltype und Kunststoffe in Einzelstücken und in größeren Mengen hergestellt. Außerdem bieten wir unterschiedliche Dienstleistungen im Bereich der mechanischen Bearbeitung an, und zwar:",
+    "list01": "CNC-Dreherei;",
+    "list02": "CNC-Fräsen;",
+    "list03": "Flach- und Rundschleifen;",
+    "list04": "Drahterosion (EDM);",
+    "list05": "Schlosserei und Montagearbeiten;",
+    "list06": "Verschweißung von Stahl, nichtrostendem Stahl, Aluminium, Gusseisen (TIG / MIG);",
+    "list07": "Thermische Bearbeitung von Bauteilen."
+  },
+  "automation": {
+    "text01": "Unser Unternehmen beschäftigt sich mit Projektierung, Zusammenbau, Montage und Inbetriebnahme der herstellenden Steuerungssysteme für Anlagen.",
+    "text02": "Dabei auch wir können wir unseren Kunden anbieten, die alten Steuerungssysteme zu erneuern."
+  },
+  "projects": {
+    "text01": "Mehr auf:"
+  },
+  "contacts": {
+    "title": "UAB „Techranga“",
+    "text01": "Handelsregisternummer: 300556637",
+    "text02": "MwSt.-Nr.: LT 100002311019",
+    "address": "LT-51241 Kaunas, Litauen"
+  }
+}

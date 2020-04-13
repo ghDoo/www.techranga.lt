@@ -1,0 +1,72 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About us",
+    "equipment": "Equipment",
+    "parts": "Parts",
+    "automation": "Automation",
+    "projects": "Completed projects",
+    "contacts": "Contacts"
+  },
+  "home": {
+    "carousel01": {
+      "title": "EQUIPMENT AND AUTOMATION",
+      "text01": "We design and manufacture",
+      "text02": "custom-made",
+      "text03": "multi-purpose equipment",
+      "text04": "for various industries",
+      "text05": "We do automation work."
+    },
+    "carousel02": {
+      "title": "PARTS",
+      "text01": "We produce various parts and prototypes",
+      "text02": "according to the drawings or samples provided.",
+      "text03": "We also provide machining services."
+    },
+    "info": {
+      "text01": "„Techranga“ is a company constantly improving the quality of its work,",
+      "text02": "seeking to meet the requirements and expectations of customers,",
+      "text03": "and quickly adapting to changing conditions."
+    }
+  },
+  "about": {
+    "text01": "UAB „Techranga“ pays special attention to the quality of work, environmental protection, as well as occupational safety and health. With this in mind, we make daily decisions, seek to implement flexible pricing, improve production processes, and look for the most efficient and optimal task solutions. We strive to respond flexibly and expeditiously and to meet the needs of the most demanding customers.",
+    "text02": "„Techranga“ designs and manufactures equipment, parts and carries out automation projects for various industries. Production is carried out from small parts to production lines. Parts are manufactured in units and in large quantities.",
+    "text03": "Seeking to enhance our position in the market and meet the needs of the customers, we implemented the integrated Quality, Environmental and OSH (occupational safety and health) management systems in the company in accordance with the LST EN ISO 9001:2015, LST EN ISO 14001:2015 and LST EN ISO 45001:2018 standards."
+  },
+  "equipment": {
+    "text01": "In accordance with the Customer's technical assignment, we design and manufacture custom-made multi-purpose equipment for various industries. We can provide a mechanical part of the device made of steel, stainless steel or other materials, as well as a fully automated device. We are designing new or manufacturing equipment according to existing samples or drawings provided by the customer. We design and manufacture:",
+    "list01": "various conveyors, transporters, transportation systems;",
+    "list02": "vibration sieves;",
+    "list03": "manipulators;",
+    "list04": "semi-automatic machines;",
+    "list05": "drilling heads;",
+    "list06": "stamping and mold tools;",
+    "list07": "metal constructions;",
+    "list08": "and other machines and production lines;",
+    "text02": "We provide equipment‘s reconstruction or repair services."
+  },
+  "parts": {
+    "text01": "We produce various parts and prototypes according to customer's orders according to the drawings or samples provided. Parts are made from different metals or plastics in units and in larger quantities. We also provide machining services:",
+    "list01": "CNC turning;",
+    "list02": "CNC milling;",
+    "list03": "Flat and round grinding;",
+    "list04": "EDMwire cutting;",
+    "list05": "We carry out locksmith's and assembling works;",
+    "list06": "Welding of steel, stainless steel, aluminum, cast iron (TIG / MIG welding works);",
+    "list07": "We carry out thermal treatment of parts."
+  },
+  "automation": {
+    "text01": "We carry put the design, assembling and installation of control systems for manufactured equipment.",
+    "text02": "Also, according to the client‘s needs, we can also upgrade the control systems for old equipment."
+  },
+  "projects": {
+    "text01": "More on:"
+  },
+  "contacts": {
+    "title": "UAB „Techranga“",
+    "text01": "Company code: 300556637",
+    "text02": "VAT code: LT 100002311019",
+    "address": "LT-51241 Kaunas, Lithuania"
+  }
+}

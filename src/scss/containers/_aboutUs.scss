@@ -1,0 +1,121 @@
+.about {
+  display: flex;
+  grid-area: cont;
+  justify-content: center;
+  margin: 10px;
+
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vh 3vw;
+    width: 50%;
+
+    &__text {
+      font-family: Montserrat-SemiBold;
+      font-size: $xxxhdpi_content-text;
+      text-align: left;
+    }
+
+    &__text::first-letter {
+      padding-left: 50px;
+    }
+    
+    &__iso {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3vh;
+      width: 80%;
+
+      &_logo {
+        background-image: url(../../assets/iso_logo.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 50%;
+        width: 30%;
+      }
+
+      &_wrap {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: left;
+        width: 50%;
+
+        &--number {
+          font-family: Montserrat-Bold;
+          font-size: $xxxhdpi_content-text;
+        }
+      }
+    }
+  }
+
+  &-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../assets/about_us.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,1);
+      -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,1);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,1);
+    margin: 2vh 3vw;
+    width: 50%;
+  }
+}
+
+@media (max-width: 3000px) {
+  .about {
+    &-content {
+      &__text {
+        font-size: $xxhdpi_content-text;
+      }
+      &__iso {
+        &_wrap {
+          &--number {
+            font-size: $xxhdpi_content-text;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 2000px) {
+  .about {
+    &-content {
+      &__text {
+        font-size: $xhdpi_content-text;
+      }
+      &__iso {
+        &_wrap {
+          &--number {
+            font-size: $xhdpi_content-text;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .about {
+    &-content {
+      &__text {
+        font-size: $hdpi_content-text;
+      }
+      &__iso {
+        &_wrap {
+          &--number {
+            font-size: $hdpi_content-text;
+          }
+        }
+      }
+    }
+  }
+}

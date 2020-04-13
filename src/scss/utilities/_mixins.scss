@@ -1,0 +1,40 @@
+
+@mixin  flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin background-contain-center {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@mixin top-bottom-box {
+  background-color: #264896;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(38,72,150,1);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(38,72,150,1);
+box-shadow: 0px 0px 5px 1px rgba(38,72,150,1);
+}
+
+@mixin xxxhdpi_footer-contacts-size {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+}
+
+@mixin xxhdpi_footer-contacts-size {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+}
+
+@mixin xhdpi_footer-contacts-size {
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+}

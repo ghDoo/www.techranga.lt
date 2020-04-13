@@ -1,5 +1,5 @@
 {
-  "name": "www.techranga.lt_react",
+  "name": "www.techranga.lt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,5 +18,24 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "history": "^4.10.1",
+    "i18next": "^19.3.3",
+    "node-sass": "^4.13.1",
+    "react-i18next": "^11.3.4",
+    "react-router-dom": "^5.1.2"
   }
 }

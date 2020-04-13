@@ -1,0 +1,170 @@
+.home {
+  display: flex;
+  grid-area: cont;
+  justify-content: center;
+  margin: 10px;
+
+  &-carousel {
+    @include flex-center;
+      -webkit-box-shadow: 0px 0px 5px 1px rgba(38,72,150,1);
+      -moz-box-shadow: 0px 0px 5px 1px rgba(38,72,150,1);
+    box-shadow: 0px 0px 5px 1px rgba(38,72,150,1);
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+
+    &__01 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-start;
+      background-image: url(../../assets/carousel_01.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 100px;
+      height: 100%;
+      width: 100%;
+
+      &_title {
+        display: flex;
+        justify-content: flex-end;
+        font-family: Montserrat-Bold;
+        font-size: $xxxhdpi_content-title;
+        color: #ffffff;
+        padding: 0 0 30px 0;
+        text-align: center;
+        text-shadow: 0 0 10px #000000;
+      }
+
+      &_text {
+        display: flex;
+        justify-content: flex-end;
+        font-family: Montserrat-SemiBold;
+        font-size: $xxxhdpi_content-text;
+        color: #ffffff;
+        padding: 5px 0;
+        text-align: right;
+        text-shadow: 0 0 10px #000000;
+      }
+    }
+
+    &__02 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      background-image: url(../../assets/carousel_02.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 100px;
+      height: 100%;
+      width: 100%;
+
+      &_title {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        font-family: Montserrat-Bold;
+        font-size: $xxxhdpi_content-title;
+        color: #ffffff;
+        margin: 0;
+        padding: 0 0 30px 0;
+        text-align: center;
+        text-shadow: 0 0 10px #000000;
+      }
+
+      &_text {
+        display: flex;
+        justify-content: flex-start;
+        font-family: Montserrat-SemiBold;
+        font-size: $xxxhdpi_content-text;
+        color: #ffffff;
+        padding: 5px 0;
+        text-align: left;
+        text-shadow: 0 0 10px #000000;
+      }
+    }
+  }
+
+  &-info {
+    @include flex-center;
+    flex-direction: column;
+    position: fixed;
+    // bottom: 120px;
+    bottom: 240px;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+
+    &__text {
+      font-family: Montserrat-Bold;
+      font-size: $xxxhdpi_content-footer;
+      color: #000000;
+    }
+  }
+}
+
+@media (max-width: 3000px) {
+  .home {
+    &-carousel {
+      &__01, &__02 {
+        &_title {
+          font-size: $xxhdpi_content-title;
+        }
+        &_text {
+          font-size: $xxhdpi_content-text;
+        }
+      }
+    }
+    &-info {
+      bottom: 180px;
+      &__text {
+        font-size: $xxhdpi_content-footer;
+      }
+    }
+  }
+}
+
+@media (max-width: 2000px) {
+  .home {
+    &-carousel {
+      &__01, &__02 {
+        &_title {
+          font-size: $xhdpi_content-title;
+        }
+        &_text {
+          font-size: $xhdpi_content-text;
+        }
+      }
+    }
+    &-info {
+      bottom: 120px;
+      &__text {
+        font-size: $xhdpi_content-footer;
+      }
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .home {
+    &-carousel {
+      &__01, &__02 {
+        &_title {
+          font-size: $hdpi_content-title;
+        }
+        &_text {
+          font-size: $hdpi_content-text;
+        }
+      }
+    }
+    &-info {
+      bottom: 120px;
+      &__text {
+        font-size: $hdpi_content-footer;
+      }
+    }
+  }
+}

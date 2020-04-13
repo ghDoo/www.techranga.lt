@@ -1,0 +1,144 @@
+.header {
+  display: flex;
+  grid-area: head;
+  @include top-bottom-box;
+  margin: 10px;
+
+  &-logo {
+    @include flex-center;
+    background-image: url(../../assets/logo.png);
+    @include background-contain-center;
+    // margin: 10px;
+    margin: 10px 10px 10px 50px;
+    width: 10%;
+  }
+
+  &-nav {
+    @include flex-center;
+    text-align: center;
+    width: 80%;
+
+    &__item {
+      display: flex;
+      margin: 5px;
+      padding: 0;
+      height: 100%;
+
+      &_button {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+
+        &--link {
+          font-family: Montserrat-Bold;
+          font-size: $xxxhdpi_nav-size;
+          color: #ffffff;
+          margin: 10px;
+          padding: 15px 10px;
+          text-decoration: none;
+          cursor: pointer;
+        }
+
+        &--link:hover {
+          text-shadow: 0 0 10px #ffffff;
+        }
+
+        .active__link {
+          border-bottom: solid #ffffff 3px;
+        }
+      }
+    }
+  }
+
+  &-languages {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 2vw;
+    width: 10%;
+
+    &__lt, &__en, &__de {
+      background-color: #264896;
+      border: none;
+      font-family: Montserrat-Bold;
+      font-size: $xxxhdpi_nav-size;
+      color: #ffffff;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    &__lt:hover, &__en:hover, &__de:hover {
+      text-shadow: 0 0 10px #ffffff;
+    }
+
+    &__lt:focus, &__en:focus, &__de:focus {
+      background-color: #3a5594;
+      outline: #ffffff auto 1px;
+    }
+  }
+}
+
+@media (max-width: 3000px) {
+  .header {
+    &-nav {
+      &__item {
+        &_button {
+          &--link {
+            font-size: $xxhdpi_nav-size;
+          }
+        }
+      }
+    }
+    &-languages {
+      &__lt, &__en, &__de {
+        font-size: $xxhdpi_nav-size;
+      }
+    }
+  }
+}
+
+@media (max-width: 2000px) {
+  .header {
+    &-logo {
+      margin: 10px 10px 10px 30px;
+    }
+    &-nav {
+      &__item {
+        &_button {
+          &--link {
+            font-size: $xhdpi_nav-size;
+            margin: 5px;
+          }
+        }
+      }
+    }
+    &-languages {
+      &__lt, &__en, &__de {
+        font-size: $xhdpi_nav-size;
+      }
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .header {
+    &-logo {
+      margin: 10px 10px 10px 20px;
+    }
+    &-nav {
+      &__item {
+        &_button {
+          &--link {
+            font-size: $hdpi_nav-size;
+            margin: 0;
+          }
+        }
+      }
+    }
+    &-languages {
+      &__lt, &__en, &__de {
+        font-size: $hdpi_nav-size;
+      }
+    }
+  }
+}
