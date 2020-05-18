@@ -181,14 +181,13 @@
     }
 
     &-wrap {
-      flex-direction: column;
       height: 100%;
       width: 100%;
     }
 
     &-content {
       padding: 0;
-      height: 40%;
+      height: 50%;
       width: 100%;
 
       &__title {
@@ -210,9 +209,7 @@
     }
 
     &-media {
-      padding: 10px 10px 10px 10px;
-      height: 60%;
-      width: 100%;
+      display: none;
     }
   }
 }
@@ -220,33 +217,23 @@
 @media (max-width: 1000px) and (orientation: landscape) {
   .contacts {
 
-    &-wrap {
-      flex-direction: row;
-    }
-
     &-content {
       &__title {
-        font-size: 1.2vw;
+        font-size: 2.4vw;
       }
       &__text {
-        font-size: 1vw;
+        font-size: 2vw;
       }
       &__location {
         &_text {
-          font-size: 1vw;
+          font-size: 2vw;
         }
       }
       &__email, &__phone, &__facebook {
         &_text {
-          font-size: 1vw;
+          font-size: 2vw;
         }
       }
-    }
-
-    &-media {
-      padding: 10px 10px 10px 10px;
-      height: 80%;
-      width: 100%;
     }
   }
 }

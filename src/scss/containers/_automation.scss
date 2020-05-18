@@ -22,29 +22,27 @@
     font-size: 1vw;
     color: #ffffff;
     padding: 3% 3% 0 0;
+    margin: 3% 3% 0 0;
     text-align: right;
   }
 }
 
 @media (max-width: 1000px) {
   .automation {
-    &-content {
-      align-items: flex-end;
-      justify-content: flex-start;
-      padding: 50px;
-      &__text {
-        font-size: 3vw;
-      }
+
+    &-text {
+      font-size: 3vw;
     }
   }
 }
 
 @media (max-width: 1000px) and (orientation: landscape) {
   .automation {
-    &-content {
-      &__text {
-        font-size: 1vw;
-      }
+    align-items: flex-end;
+    justify-content: center;
+
+    &-text {
+      font-size: 2vw;
     }
   }
 }

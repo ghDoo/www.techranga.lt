@@ -105,6 +105,7 @@
       font-family: Montserrat-Bold;
       font-size: 1vw;
       color: #000000;
+      padding: 1vh;
     }
   }
 }
@@ -112,6 +113,7 @@
 @media (max-width: 1000px) {
   .home {
     &-carousel {
+      height: 60%;
       &__01, &__02 {
         &_title {
           font-size: 3.5vw;
@@ -122,6 +124,7 @@
       }
     }
     &-info {
+      bottom: 20%;
       &__text {
         font-size: 3vw;
       }
