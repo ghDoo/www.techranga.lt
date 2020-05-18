@@ -12,12 +12,11 @@
 
 //  Utilities
 @import './utilities/layout';
-@import './utilities/variables';
-@import './utilities/mixins';
 
 //  Components
 @import './Components/header';
 @import './Components/footer';
+@import './Components/mobile';
 
 //  containers
 @import './containers/home';

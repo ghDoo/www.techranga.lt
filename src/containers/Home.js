@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useTranslation } from "react-i18next";
 
+import { NavigationContext } from '../App';
+
 export const Home = () => {
+  const { state } = useContext(NavigationContext);
+  const active = state.isMenuActive;
   const { t } = useTranslation();
   let slideIndex = 0;
 
@@ -24,7 +28,7 @@ export const Home = () => {
   showSlides();
 
   return (
-    <div className="home">
+    <div className={ `${ active ? "hide" : "home" }` }>
       <div className="home-carousel">
         <div className="home-carousel__01">
           <h1 className="home-carousel__01_title"> { t(`home.carousel01.title`) } </h1>

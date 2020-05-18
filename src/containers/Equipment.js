@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useTranslation } from "react-i18next";
 
+import { NavigationContext } from '../App';
+
 export const Equipment = () => {
+  const { state } = useContext(NavigationContext);
+  const active = state.isMenuActive;
   const { t } = useTranslation();
   return (
-    <div className="equipment">
+    <div className={ `${ active ? "hide" : "equipment" }` }>
       <div className="equipment-content">
         <p className="equipment-content__text"> { t(`equipment.text01`) } </p>
         <br />

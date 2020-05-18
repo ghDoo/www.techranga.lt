@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
+
+import { NavigationContext } from '../../App';
 
 export const Nav = () => {
+  const { state, dispatch } = useContext(NavigationContext);
   const { t } = useTranslation();
-
   return (
     <nav className="header-nav">
       <ul className="header-nav__item">
@@ -30,6 +32,8 @@ export const Nav = () => {
           <Link className="header-nav__item_button--link" to='/contacts'> { t(`navigation.contacts`) } </Link>
         </li>
       </ul>
+      <div className={ `header-nav__menu` } onClick={ () => dispatch({ type: 'toggleMenu' }) }>
+      </div>
     </nav>
   );
 };

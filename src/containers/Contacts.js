@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useTranslation } from "react-i18next";
 
+import { NavigationContext } from '../App';
+
 export const Contacts = () => {
+  const { state } = useContext(NavigationContext);
+  const active = state.isMenuActive;
   const { t } = useTranslation();
   return (
-    <div className="contacts">
+    <div className={ `${ active ? "hide" : "contacts" }` }>
     <div className="contacts-header"></div>
     <div className="contacts-wrap">
       <div className="contacts-content">

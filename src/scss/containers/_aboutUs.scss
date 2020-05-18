@@ -14,7 +14,7 @@
 
     &__text {
       font-family: Montserrat-SemiBold;
-      font-size: $xxxhdpi_content-text;
+      font-size: 1vw;
       text-align: left;
     }
 
@@ -47,7 +47,7 @@
 
         &--number {
           font-family: Montserrat-Bold;
-          font-size: $xxxhdpi_content-text;
+          font-size: 1vw;
         }
       }
     }
@@ -69,50 +69,46 @@
   }
 }
 
-@media (max-width: 3000px) {
+@media (max-width: 1000px) {
   .about {
     &-content {
+      height: 100%;
+      width: 100%;
       &__text {
-        font-size: $xxhdpi_content-text;
+        font-size: 3vw;
       }
       &__iso {
         &_wrap {
           &--number {
-            font-size: $xxhdpi_content-text;
+            font-size: 3vw;
           }
         }
       }
+    }   
+    
+    &-media {
+      position: absolute;
+      background-size: cover;
+      margin: 0;
+      top: 0;
+      height: 100vh;
+      width: 100vw;
+      opacity: 0.1;
+      z-index: -999;
     }
   }
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 1000px) and (orientation: landscape) {
   .about {
     &-content {
       &__text {
-        font-size: $xhdpi_content-text;
+        font-size: 1vw;
       }
       &__iso {
         &_wrap {
           &--number {
-            font-size: $xhdpi_content-text;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 1500px) {
-  .about {
-    &-content {
-      &__text {
-        font-size: $hdpi_content-text;
-      }
-      &__iso {
-        &_wrap {
-          &--number {
-            font-size: $hdpi_content-text;
+            font-size: 1vw;
           }
         }
       }

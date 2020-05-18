@@ -1,28 +1,41 @@
 .header {
   display: flex;
   grid-area: head;
-  @include top-bottom-box;
-  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #264896;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(38,72,150,1);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(38,72,150,1);
+  box-shadow: 0px 0px 5px 1px rgba(38,72,150,1);
+  margin: 0.3%;
 
   &-logo {
-    @include flex-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(../../assets/logo.png);
-    @include background-contain-center;
-    // margin: 10px;
-    margin: 10px 10px 10px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 0 0 2%;
+    height: 100%;
     width: 10%;
   }
 
   &-nav {
-    @include flex-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     width: 80%;
+    overflow: hidden;
 
     &__item {
       display: flex;
-      margin: 5px;
-      padding: 0;
+      align-items: center;
+      justify-content: center;
       height: 100%;
+      width: 100%;
 
       &_button {
         display: flex;
@@ -31,10 +44,9 @@
 
         &--link {
           font-family: Montserrat-Bold;
-          font-size: $xxxhdpi_nav-size;
+          font-size: 1vw;
           color: #ffffff;
-          margin: 10px;
-          padding: 15px 10px;
+          margin: 0.5vw;
           text-decoration: none;
           cursor: pointer;
         }
@@ -48,22 +60,26 @@
         }
       }
     }
+
+    &__mobile {
+      display: none;
+    }
   }
 
   &-languages {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0 2vw;
+    margin: 0 2% 0 0;
     width: 10%;
 
     &__lt, &__en, &__de {
       background-color: #264896;
       border: none;
       font-family: Montserrat-Bold;
-      font-size: $xxxhdpi_nav-size;
+      font-size: 1vw;
       color: #ffffff;
-      padding: 10px;
+      padding: 0.5vw;
       cursor: pointer;
     }
 
@@ -78,66 +94,89 @@
   }
 }
 
-@media (max-width: 3000px) {
+@media (max-width: 1000px) {
+
+  .hide {
+    display: none;
+  }
+
   .header {
+    &-logo {
+      margin: 0 0 0 2%;
+      height: 50%;
+      width: 25%;
+    }
     &-nav {
+      height: 100%;
+      width: 50%;
+
       &__item {
-        &_button {
-          &--link {
-            font-size: $xxhdpi_nav-size;
-          }
-        }
+        display: none;
+      }
+
+      &__menu {
+        display: flex;
+        background-image: url(../../assets/menu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 30%;
+        width: 30%;
       }
     }
+    
     &-languages {
+      margin: 0 2% 0 0;
+      width: 25%;
+      overflow: hidden;
+
       &__lt, &__en, &__de {
-        font-size: $xxhdpi_nav-size;
+        font-size: 3vw;
+        margin: 1vw;
       }
     }
   }
 }
 
-@media (max-width: 2000px) {
-  .header {
-    &-logo {
-      margin: 10px 10px 10px 30px;
-    }
-    &-nav {
-      &__item {
-        &_button {
-          &--link {
-            font-size: $xhdpi_nav-size;
-            margin: 5px;
-          }
-        }
-      }
-    }
-    &-languages {
-      &__lt, &__en, &__de {
-        font-size: $xhdpi_nav-size;
-      }
-    }
-  }
-}
+@media (max-width: 1000px) and (orientation: landscape) {
 
-@media (max-width: 1500px) {
+  .hide {
+    display: none;
+  }
+
   .header {
     &-logo {
-      margin: 10px 10px 10px 20px;
+      margin: 0 0 0 2%;
+      height: 50%;
+      width: 25%;
     }
     &-nav {
+      height: 100%;
+      width: 50%;
+
       &__item {
-        &_button {
-          &--link {
-            font-size: $hdpi_nav-size;
-            margin: 0;
-          }
-        }
+        display: none;
+      }
+
+      &__menu {
+        display: flex;
+        background-image: url(../../assets/menu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 30%;
+        width: 30%;
       }
     }
+    
     &-languages {
+      margin: 0 2% 0 0;
+      width: 25%;
+      overflow: hidden;
+
       &__lt, &__en, &__de {
-        font-size: $hdpi_nav-size;
+        font-size: 1vw;
+        margin: 1vw;
       }
     }
   }

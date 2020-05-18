@@ -1,55 +1,49 @@
 .automation {
   display: flex;
   grid-area: cont;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
   margin: 10px;
 
   &-content {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-image: url(../../assets/automation.png);
+    background-image: url(../../assets/carousel_01.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 2vh 3vw;
     height: 100%;
     width: 100%;
+  }
 
-    &__text {
-      font-family: Montserrat-SemiBold;
-      font-size: $xxxhdpi_content-text;
-      text-align: left;
-      width: 50%;
-    }
+  &-text {
+    position: absolute;
+    font-family: Montserrat-SemiBold;
+    font-size: 1vw;
+    color: #ffffff;
+    padding: 3% 3% 0 0;
+    text-align: right;
   }
 }
 
-@media (max-width: 3000px) {
+@media (max-width: 1000px) {
   .automation {
     &-content {
+      align-items: flex-end;
+      justify-content: flex-start;
+      padding: 50px;
       &__text {
-        font-size: $xxhdpi_content-text;
+        font-size: 3vw;
       }
     }
   }
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 1000px) and (orientation: landscape) {
   .automation {
     &-content {
       &__text {
-        font-size: $xhdpi_content-text;
-      }
-    }
-  }
-}
-
-@media (max-width: 1500px) {
-  .automation {
-    &-content {
-      &__text {
-        font-size: $hdpi_content-text;
+        font-size: 1vw;
       }
     }
   }

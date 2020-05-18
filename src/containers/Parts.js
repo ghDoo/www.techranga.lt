@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useTranslation } from "react-i18next";
 
+import { NavigationContext } from '../App';
+
 export const Parts = () => {
+  const { state } = useContext(NavigationContext);
+  const active = state.isMenuActive;
   const { t } = useTranslation();
   return (
-    <div className="parts">
+    <div className={ `${ active ? "hide" : "parts" }` }>
       <div className="parts-content">
         <p className="parts-content__text"> { t(`parts.text01`) } </p>
         <br />

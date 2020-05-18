@@ -8,32 +8,13 @@ body {
   overflow: hidden;
 }
 
-// #page {
-//   display: grid;
-//   position: relative;
-//   grid-template-columns: [c1] 1fr [c2] 1fr [c3] 1fr [c4] 1fr [c5];
-//   grid-template-rows: [r1] 100px [r2] 1fr [r3] 100px [r4];
-//   grid-template-areas: "head head head head" "cont cont cont cont" "foot foot foot foot";
-//   height: 100vh;
-// }
-
 #page {
   display: grid;
   position: relative;
-  grid-template-columns: [c1] 1fr [c2] 1fr [c3] 1fr [c4] 1fr [c5];
-  grid-template-rows: [r1] 200px [r2] 1fr [r3] 200px [r4];
-  grid-template-areas: "head head head head" "cont cont cont cont" "foot foot foot foot";
+  grid-template-columns:  [c1] 1fr [c2] 1fr [c3] 1fr [c4] 1fr [c5];
+  grid-template-rows:     [r1] 10% [r2] 1fr [r3] 10% [r4];
+  grid-template-areas:    "head head head head" 
+                          "cont cont cont cont" 
+                          "foot foot foot foot";
   height: 100vh;
-}
-
-@media (max-width: 3000px) {
-  #page {
-    grid-template-rows: [r1] 150px [r2] 1fr [r3] 150px [r4];
-  }
-}
-
-@media (max-width: 2000px) {
-  #page {
-    grid-template-rows: [r1] 100px [r2] 1fr [r3] 100px [r4];
-  }
 }

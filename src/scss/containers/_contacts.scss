@@ -39,13 +39,13 @@
 
     &__title {
       font-family: Montserrat-Bold;
-      font-size: $xxxhdpi_content-title;
+      font-size: 1.2vw;
       text-align: center;
     }
 
     &__text {
       font-family: Montserrat-SemiBold;
-      font-size: $xxxhdpi_content-text;
+      font-size: 1vw;
       text-align: center;
     }
 
@@ -67,7 +67,7 @@
 
       &_text {
         font-family: Montserrat-Bold;
-        font-size: $xxxhdpi_content-text;
+        font-size: 1vw;
         color: #000000;
         padding: 10px;
         text-decoration: none;
@@ -93,7 +93,7 @@
 
       &_text {
         font-family: Montserrat-SemiBold;
-        font-size: $xxxhdpi_content-text;
+        font-size: 1vw;
         color: #000000;
         padding: 10px;
         text-decoration: none;
@@ -119,7 +119,7 @@
 
       &_text {
         font-family: Montserrat-SemiBold;
-        font-size: $xxxhdpi_content-text;
+        font-size: 1vw;
         color: #000000;
         padding: 10px;
         text-decoration: none;
@@ -145,7 +145,7 @@
 
       &_text {
         font-family: Montserrat-SemiBold;
-        font-size: $xxxhdpi_content-text;
+        font-size: 1vw;
         color: #000000;
         padding: 10px;
         text-decoration: none;
@@ -174,71 +174,79 @@
   }
 }
 
-@media (max-width: 3000px) {
+@media (max-width: 1000px) {
   .contacts {
+    &-header {
+      display: none;
+    }
+
+    &-wrap {
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+    }
+
     &-content {
+      padding: 0;
+      height: 40%;
+      width: 100%;
+
       &__title {
-        font-size: $xxhdpi_content-title;
+        font-size: 3.5vw;
       }
       &__text {
-        font-size: $xxhdpi_content-text;
+        font-size: 3vw;
       }
       &__location {
         &_text {
-          font-size: $xxhdpi_content-text;
+          font-size: 3vw;
         }
       }
       &__email, &__phone, &__facebook {
         &_text {
-          font-size: $xxhdpi_content-text;
+          font-size: 3vw;
         }
       }
+    }
+
+    &-media {
+      padding: 10px 10px 10px 10px;
+      height: 60%;
+      width: 100%;
     }
   }
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 1000px) and (orientation: landscape) {
   .contacts {
+
+    &-wrap {
+      flex-direction: row;
+    }
+
     &-content {
       &__title {
-        font-size: $xhdpi_content-title;
+        font-size: 1.2vw;
       }
       &__text {
-        font-size: $xhdpi_content-text;
+        font-size: 1vw;
       }
       &__location {
         &_text {
-          font-size: $xhdpi_content-text;
+          font-size: 1vw;
         }
       }
       &__email, &__phone, &__facebook {
         &_text {
-          font-size: $xhdpi_content-text;
+          font-size: 1vw;
         }
       }
     }
-  }
-}
 
-@media (max-width: 1500px) {
-  .contacts {
-    &-content {
-      &__title {
-        font-size: $hdpi_content-title;
-      }
-      &__text {
-        font-size: $hdpi_content-text;
-      }
-      &__location {
-        &_text {
-          font-size: $hdpi_content-text;
-        }
-      }
-      &__email, &__phone, &__facebook {
-        &_text {
-          font-size: $hdpi_content-text;
-        }
-      }
+    &-media {
+      padding: 10px 10px 10px 10px;
+      height: 80%;
+      width: 100%;
     }
   }
 }

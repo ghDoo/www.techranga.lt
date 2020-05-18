@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useTranslation } from "react-i18next";
 
+import { NavigationContext } from '../App';
+
 export const CompletedProjects = () => {
+  const { state } = useContext(NavigationContext);
+  const active = state.isMenuActive;
   const { t } = useTranslation();
   return (
-    <div className="projects">
+    <div className={ `${ active ? "hide" : "projects" }` }>
       <div className="projects-content">
         <h2 className="projects-content__text"> { t(`projects.text01`) } </h2>
-        <br />
-        <a className="projects-content__text_link" href="https://www.youtube.com/channel/UCXw6HYfscr37Ze_sdtbibQQ" target="_blank" rel="noopener noreferrer nofollow">
-          <img className="projects-content__text_link--logo" src={require("../assets/youtube_logo.png")} alt="youtube logo" />
-        </a>
         <br />
         <a className="projects-content__text_link" href="https://www.facebook.com/Ttechranga/" target="_blank" rel="noopener noreferrer nofollow">
           <img className="projects-content__text_link--logo" src={require("../assets/facebook_logo_b.png")} alt="facebook logo" />
