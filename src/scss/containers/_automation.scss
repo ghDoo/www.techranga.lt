@@ -3,7 +3,7 @@
   grid-area: cont;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 10px;
 
   &-content {
@@ -19,11 +19,11 @@
   &-text {
     position: absolute;
     font-family: Montserrat-SemiBold;
-    font-size: 1vw;
+    font-size: 0.8vw;
     color: #ffffff;
     padding: 3% 3% 0 0;
     margin: 3% 3% 0 0;
-    text-align: right;
+    text-align: center;
   }
 }
 

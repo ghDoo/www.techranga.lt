@@ -6,8 +6,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
+    "history": "^4.10.1",
+    "i18next": "^19.4.5",
+    "node-sass": "^4.14.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-i18next": "^11.5.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.0"
   },
   "scripts": {
@@ -30,12 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "history": "^4.10.1",
-    "i18next": "^19.3.3",
-    "node-sass": "^4.13.1",
-    "react-i18next": "^11.3.4",
-    "react-router-dom": "^5.1.2"
   }
 }
