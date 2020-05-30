@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import { NavigationContext } from '../App';
 
-export const Home = () => {
+const Home = () => {
   const [show, setShow] = useState(false);
   const { state } = useContext(NavigationContext);
   const active = state.isMenuActive;
@@ -20,7 +20,7 @@ export const Home = () => {
   const test = () => {
     const interval = setTimeout(() => {
       setShow(currentState);
-    }, 5000);
+    }, 10000);
     return () => clearTimeout(interval);
   };
 
@@ -54,3 +54,5 @@ export const Home = () => {
     </div>
   );
 };
+
+export default Home;

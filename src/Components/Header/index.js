@@ -1,10 +1,11 @@
 import React from 'react';
 
-import { Logo } from './Logo';
-import { Nav } from './Nav';
-import { Languages } from './Languages';
+import Logo from './Logo';
+import Nav from './Nav';
+import Languages from './Languages';
 
-export const Header = () => {
+const Header = () => {
+
   return (
     <div className="header">
       <Logo />
@@ -13,3 +14,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header;

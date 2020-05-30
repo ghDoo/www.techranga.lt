@@ -20,13 +20,14 @@
       flex-direction: column;
       align-items: flex-end;
       justify-content: flex-start;
-      background-image: url(../../assets/carousel_01.jpg);
+      background-image: url(../../assets/carousel_01_4k.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       padding: 3%;
       height: 100%;
       width: 100%;
+      animation: slide01 10s linear 0s 1 alternate forwards;
 
       &_title {
         display: flex;
@@ -56,13 +57,14 @@
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-end;
-      background-image: url(../../assets/carousel_02.jpg);
+      background-image: url(../../assets/carousel_02_4k.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       padding: 3%;
       height: 100%;
       width: 100%;
+      animation: slide02 10s linear 0s 1 alternate forwards;
 
       &_title {
         display: flex;
@@ -110,18 +112,60 @@
   }
 }
 
+@keyframes slide01 {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes slide02 {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@media (max-width: 3000px) {
+  .home {
+    &-carousel {
+      &__01 {
+        background-image: url(../../assets/carousel_01_3x.jpg);
+      }
+
+      &__02 {
+        background-image: url(../../assets/carousel_02_3x.jpg);
+      }
+    }
+  }
+}
+
+@media (max-width: 2000px) {
+  .home {
+    &-carousel {
+      &__01 {
+        background-image: url(../../assets/carousel_01_2x.jpg);
+      }
+
+      &__02 {
+        background-image: url(../../assets/carousel_02_2x.jpg);
+      }
+    }
+  }
+}
+
 @media (max-width: 1000px) {
   .home {
     &-carousel {
       height: 60%;
 
-      // &__01 {
-      //   background-image: url(../../assets/carousel_01_1x.jpg);
-      // }
+      &__01 {
+        background-image: url(../../assets/carousel_01_1x.jpg);
+      }
 
-      // &__02 {
-      //   background-image: url(../../assets/carousel_02_1x.jpg);
-      // }
+      &__02 {
+        background-image: url(../../assets/carousel_02_1x.jpg);
+      }
 
       &__01, &__02 {
         &_title {
@@ -159,6 +203,20 @@
     &-info {
       &__text {
         font-size: 1vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .home {
+    &-carousel {
+      &__01 {
+        background-image: url(../../assets/carousel_01_05x.jpg);
+      }
+
+      &__02 {
+        background-image: url(../../assets/carousel_02_05x.jpg);
       }
     }
   }

@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import { NavigationContext } from '../App';
 
-export const CompletedProjects = () => {
+const CompletedProjects = () => {
   const { state } = useContext(NavigationContext);
   const active = state.isMenuActive;
   const { t } = useTranslation();
@@ -69,3 +69,5 @@ export const CompletedProjects = () => {
   </div>
   );
 };
+
+export default CompletedProjects;

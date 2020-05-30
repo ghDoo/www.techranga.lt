@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import { NavigationContext } from '../App';
 
-export const Equipment = () => {
+const Equipment = () => {
   const { state } = useContext(NavigationContext);
   const active = state.isMenuActive;
   const { t } = useTranslation();
@@ -29,3 +29,5 @@ export const Equipment = () => {
   </div>
   );
 };
+
+export default Equipment;

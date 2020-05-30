@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 
-export const Languages = () => {
+const Languages = () => {
   const { i18n } = useTranslation();
   const changeLanguage = lng => {
     i18n.changeLanguage(lng);
@@ -15,3 +15,5 @@ export const Languages = () => {
     </div>
   );
 };
+
+export default Languages;

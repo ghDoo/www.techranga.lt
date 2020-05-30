@@ -4,15 +4,16 @@ import { useTranslation } from 'react-i18next';
 
 import { NavigationContext } from '../../App';
 
-export const MobileNav = () => {
+const MobileNav = () => {
   const { state, dispatch } = useContext(NavigationContext);
   const active = state.isMenuActive;
   const { t } = useTranslation();
+  
   return (
     <nav className={ `mobile` } onClick={ () => dispatch({ type: 'toggleMenu' }) }>
       <ul className={ `${ active ? "mobile-nav" : "hide" }` }>
         <li className={ `${ active ? "mobile-nav__button" : "hide" }` }>
-          <Link className={ `${ active ? "mobile-nav__button_link" : "hide" }` } to='/home'>
+          <Link className={ `${ active ? "mobile-nav__button_link" : "hide" }` } to='/'>
             { t(`navigation.home`) }
           </Link>
         </li>
@@ -50,3 +51,5 @@ export const MobileNav = () => {
     </nav>
   );
 };
+
+export default MobileNav;

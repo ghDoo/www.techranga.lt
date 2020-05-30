@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import { NavigationContext } from '../App';
 
-export const Contacts = () => {
+const Contacts = () => {
   const { state } = useContext(NavigationContext);
   const active = state.isMenuActive;
   const { t } = useTranslation();
@@ -44,3 +44,5 @@ export const Contacts = () => {
   </div>
   );
 };
+
+export default Contacts;

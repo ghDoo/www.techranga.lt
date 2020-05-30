@@ -18,3 +18,15 @@ body {
                           "foot foot foot foot";
   height: 100vh;
 }
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat-Bold;
+  font-size: 2vw;
+  color: #ffffff;
+  text-shadow: 0 0 10px #000000;
+  height: 100vh;
+  width: 100vw;
+}

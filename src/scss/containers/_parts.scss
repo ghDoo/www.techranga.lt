@@ -32,7 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../../assets/parts.jpg);
+    background-image: url(../../assets/parts_2x.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -53,12 +53,13 @@
 
     &-media {
       position: absolute;
+      background-image: url(../../assets/parts_1x.jpg);
       background-size: cover;
       margin: 0;
       top: 0;
       height: 100vh;
       width: 100vw;
-      opacity: 0.1;
+      opacity: 0.3;
       z-index: -999;
     }
   }
@@ -70,6 +71,18 @@
       &__text, &__list {
         font-size: 1vw;
       }
+    }
+
+    &-media {
+      background-image: url(../../assets/parts_1x.jpg);
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .parts {
+    &-media {
+      background-image: url(../../assets/parts_05x.jpg);
     }
   }
 }

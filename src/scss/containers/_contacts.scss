@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../../assets/contacts.jpg);
+    background-image: url(../../assets/contacts_4k.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,6 +170,22 @@
       box-shadow: 0px 0px 10px 1px rgba(0,0,0,1);
       height: 100%;
       width: 100%;
+    }
+  }
+}
+
+@media (max-width: 3000px) {
+  .contacts {
+    &-header {
+      background-image: url(../../assets/contacts_3x.jpg);
+    }
+  }
+}
+
+@media (max-width: 2000px) {
+  .contacts {
+    &-header {
+      background-image: url(../../assets/contacts_2x.jpg);
     }
   }
 }

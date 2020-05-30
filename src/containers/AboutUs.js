@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import { NavigationContext } from '../App';
 
-export const AboutUs = () => {
+const AboutUs = () => {
   const { state } = useContext(NavigationContext);
   const active = state.isMenuActive;
   const { t } = useTranslation();
@@ -28,3 +28,5 @@ export const AboutUs = () => {
   </div>
   );
 };
+
+export default AboutUs;

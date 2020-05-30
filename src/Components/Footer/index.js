@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className="footer">
       <h1 className="footer-trademark"> {`\u00a9 Techranga 2019`} </h1>
@@ -21,3 +21,5 @@ export const Footer = () => {
   </footer>
   );
 };
+
+export default Footer;

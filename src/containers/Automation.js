@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import { NavigationContext } from '../App';
 
-export const Automation = () => {
+const Automation = () => {
   const { state } = useContext(NavigationContext);
   const active = state.isMenuActive;
   const { t } = useTranslation();
@@ -14,3 +14,5 @@ export const Automation = () => {
   </div>
   );
 };
+
+export default Automation;

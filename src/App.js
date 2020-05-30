@@ -1,23 +1,24 @@
-import React, { useReducer } from 'react';
-import { Router, Switch, Route, } from "react-router-dom";
-import { createBrowserHistory } from 'history';
+import React, { useReducer, lazy, Suspense } from 'react';
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
-import { Header } from './Components/Header/index';
-import { MobileNav } from './Components/Mobile/MobileNav';
-import { Home } from './containers/Home';
-import { AboutUs } from './containers/AboutUs';
-import { Equipment } from './containers/Equipment';
-import { Parts } from './containers/Parts';
-import { Automation } from './containers/Automation';
-import { CompletedProjects } from './containers/CompletedProjects';
-import { Contacts } from './containers/Contacts';
-import { Footer } from './Components/Footer/index';
+const Header = lazy(() => import('./Components/Header/index'));
+const MobileNav = lazy(() => import('./Components/Mobile/MobileNav'));
+const Home = lazy(() => import('./containers/Home'));
+const AboutUs = lazy(() => import('./containers/AboutUs'));
+const Equipment = lazy(() => import('./containers/Equipment'));
+const Parts = lazy(() => import('./containers/Parts'));
+const Automation = lazy(() => import('./containers/Automation'));
+const CompletedProjects = lazy(() => import('./containers/CompletedProjects'));
+const Contacts = lazy(() => import('./containers/Contacts'));
+const Footer = lazy(() => import('./Components/Footer/index'));
 
-export const NavigationContext = React.createContext(false);
+const loader = () => <p className='loader'> Loading... </p>;
 
 const initialState = {
   isMenuActive: false,
 };
+
+export const NavigationContext = React.createContext(initialState);
 
 const toggleMenu = state => {
   let newState = Object.assign({}, state);
@@ -29,31 +30,33 @@ const navReducer = (state, action) => {
   switch(action.type) {
     case 'toggleMenu': 
       return toggleMenu(state);
-      default: throw new Error('Unexpected action');
+    default: throw new Error('Unexpected action');
   };
 };
 
-const history = createBrowserHistory();
-history.push('/home');
+const App = () => {
+  const [ state, dispatch ] = useReducer(navReducer, initialState);
 
-export const App = () => {
-  const [state, dispatch] = useReducer(navReducer, initialState);
   return (
-    <Router history={history}>
-      <NavigationContext.Provider value={ { state, dispatch } }>
-        <Header />
-        <MobileNav />
-        <Switch>
-          <Route exact path='/home' component={ Home } />
-          <Route path='/about' component={ AboutUs } />
-          <Route path='/equipment' component={ Equipment } />
-          <Route path='/parts' component={ Parts } />
-          <Route path='/automation' component={ Automation } />
-          <Route path='/projects' component={ CompletedProjects } />
-          <Route path='/contacts' component={ Contacts } />
-        </Switch>
-        <Footer />
-      </NavigationContext.Provider>
-    </Router>
+    <Suspense fallback = { loader() }>
+      <Router>
+        <NavigationContext.Provider value={ { state, dispatch } }>
+          <Header />
+          <MobileNav />
+          <Switch>
+            <Route exact path='/' component={ Home } />
+            <Route path='/about' component={ AboutUs } />
+            <Route path='/equipment' component={ Equipment } />
+            <Route path='/parts' component={ Parts } />
+            <Route path='/automation' component={ Automation } />
+            <Route path='/projects' component={ CompletedProjects } />
+            <Route path='/contacts' component={ Contacts } />
+          </Switch>
+          <Footer />
+        </NavigationContext.Provider>
+      </Router>
+    </Suspense>
   );
 };
+
+export default App;

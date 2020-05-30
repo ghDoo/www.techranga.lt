@@ -1,7 +1,9 @@
 import React from 'react';
 
-export const Logo = () => {
+const Logo = () => {
   return (
     <div className="header-logo"></div>
   );
 };
+
+export default Logo;
