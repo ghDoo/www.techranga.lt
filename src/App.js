@@ -5,6 +5,9 @@ const Header = lazy(() => import('./Components/Header/index'));
 const MobileNav = lazy(() => import('./Components/Mobile/MobileNav'));
 const Home = lazy(() => import('./containers/Home'));
 const AboutUs = lazy(() => import('./containers/AboutUs'));
+const TableA = lazy(() => import('./containers/TableA'));
+const TableB = lazy(() => import('./containers/TableB'));
+const TableC = lazy(() => import('./containers/TableC'));
 const Equipment = lazy(() => import('./containers/Equipment'));
 const Parts = lazy(() => import('./containers/Parts'));
 const Automation = lazy(() => import('./containers/Automation'));
@@ -46,6 +49,9 @@ const App = () => {
           <Switch>
             <Route exact path='/' component={ Home } />
             <Route path='/about' component={ AboutUs } />
+            <Route path='/milling' component={ TableA } />
+            <Route path='/turning' component={ TableB } />
+            <Route path='/other' component={ TableC } />
             <Route path='/equipment' component={ Equipment } />
             <Route path='/parts' component={ Parts } />
             <Route path='/automation' component={ Automation } />
