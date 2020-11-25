@@ -68,5 +68,39 @@
     "text01": "Company code: 300556637",
     "text02": "VAT code: LT 100002311019",
     "address": "LT-51241 Kaunas, Lithuania"
+  },
+  "tables": {
+    "link": "TECHNICAL CAPACITY",
+    "milling": {
+      "milling-title": "MILLING MACHINES",
+      "milling-th_01": "Axles",
+      "milling-th_02": "Working surface"
+    },
+    "turning": {
+      "turning-title": "TURNING MACHINES",
+      "turning-th_01": "Diameter",
+      "turning-th_02": "Length"
+    },
+    "other": {
+      "other-title": "OTHER EQUIPMENT",
+      "other-equipment_01": "Coordinate boring machine MAHO MH800P (1150x700mm)",
+      "other-equipment_02": "Cylindrical grinding machine 3U13DF11 (Ø200x500mm)",
+      "other-equipment_03": "Surface grinding machine 3L722 (1100x320x280mm)",
+      "other-equipment_04": "Wire EDM (400x800mm)",
+      "other-equipment_05": "Wire EDM SP150",
+      "other-equipment_06": "Band saw machine Pegas Gonda 220x250 GH-R",
+      "other-equipment_07": "Column type carving machine Kommunar 7A420 (Ø500x200mm)",
+      "other-equipment_08": "Vertical drilling machine, 2 pcs.",
+      "other-equipment_09": "Eccentric press (100T, 850x560mm)",
+      "other-equipment_10": "Hydraulic press (30T, 995x1000mm)",
+      "other-equipment_11": "Hand press (435x325mm)",
+      "other-equipment_12": "Sharpening machine, 2 pcs.",
+      "other-equipment_13": "Electric furnace SNOL 10/1200 (1200°C, 295x420x295mm)",
+      "other-equipment_14": "Electric furnace SNOL 1 6.2.5.1/9-IZ (900°C, 170x295x115mm)",
+      "other-equipment_15": "Portable sand blasting Machine SBC350 (945x605x580mm)",
+      "other-equipment_16": "Hardness tester according to HRC scale",
+      "other-equipment_17": "Manual sheet metal rolling machine (width 1000 mm)",
+      "other-equipment_18": "Bending device (width 700mm)"
+    }
   }
 }

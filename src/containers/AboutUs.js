@@ -39,7 +39,7 @@ const AboutUs = () => {
           <img className="about-content__certificate--img" src={ ISO45001 } alt="" onClick={ () => setISO45001(true) } />
         </div>
         <div className="about-content__tables">
-          <Link className="about-content__tables--text" to='/milling'> { t(`about.tables`) } </Link>
+          <Link className="about-content__tables--text" to='/milling'> { t(`tables.link`) } </Link>
         </div>
       </div>
       <img className="about-media" src={media} alt="" />

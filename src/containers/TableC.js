@@ -13,43 +13,43 @@ const Tables = () => {
       <table className="tables-wrapper">
         <thead className="tables-header">
           <tr className="tables-header__row">
-            <th className="tables-header__title">
-              <Link className="tables-header__title--button" to='/milling'> Frezavimo staklės </Link>
+            <th className="tables-header__title--btn">
+              <Link className="tables-header__title--button" to='/milling'> { t(`tables.milling.milling-title`) } </Link>
             </th>
-            <th className="tables-header__title">
-              <Link className="tables-header__title--button" to='/turning'> Tekinimo staklės </Link>
+            <th className="tables-header__title--btn">
+              <Link className="tables-header__title--button" to='/turning'> { t(`tables.turning.turning-title`) } </Link>
             </th>
-            <th className="tables-header__title">
-              <Link className="tables-header__title--button" to='/other'> Kiti įrenginiai </Link>
+            <th className="tables-header__title--btn active">
+              <Link className="tables-header__title--button active-btn" to='/other'> { t(`tables.other.other-title`) } </Link>
             </th>
           </tr>
         </thead>
         <thead className="tables-header">
           <tr className="tables-header__row">
-            <th className="tables-header__title" colSpan="3">KITI ĮRENGINIAI</th>
+            <th className="tables-header__title" colSpan="3"> { t(`tables.other.other-title`) } </th>
           </tr>
         </thead>
         <tbody className="tables-body">
           <tr className="tables-body__row--other">
             <td className="tables-body__column--other" colSpan="3">
-              <p className="tables-body__column--other_p">Koordinatinio ištekinimo staklės MAHO MH800P (1150x700mm)</p>
-              <p className="tables-body__column--other_p">Apvalaus šlifavimo staklės 3U13DF11 (Ø200x500mm)</p>
-              <p className="tables-body__column--other_p">Plokščio šlifavimo staklės 3L722 (1100x320x280mm)</p>
-              <p className="tables-body__column--other_p">Elektroerozinės staklės (400x800mm)</p>
-              <p className="tables-body__column--other_p">Elektroerozinės staklės SP150</p>
-              <p className="tables-body__column--other_p">Juostinės pjovimo staklės Pegas Gonda 220x250 GH-R</p>
-              <p className="tables-body__column--other_p">Vertikalaus drožimo staklės Kommunar 7A420 (Ø500x200mm)</p>
-              <p className="tables-body__column--other_p">Vertikalios gręžimo staklės, 2 vnt.</p>
-              <p className="tables-body__column--other_p">Presas (alkūninis) (100T, 850x560mm)</p>
-              <p className="tables-body__column--other_p">Presas (hidraulinis) (30T, 995x1000mm)</p>
-              <p className="tables-body__column--other_p">Presas (rankinis) (435x325mm)</p>
-              <p className="tables-body__column--other_p">Galandinimo staklės, 2 vnt.</p>
-              <p className="tables-body__column--other_p">Elektrinė krosnis SNOL 10/1200 (1200°C, 295x420x295mm)</p>
-              <p className="tables-body__column--other_p">Elektrinė krosnis SNOL 1 6.2.5.1/9-IZ (900°C, 170x295x115mm)</p>
-              <p className="tables-body__column--other_p">Smėliapūtė SBC350 (945x605x580mm)</p>
-              <p className="tables-body__column--other_p">Kietumo nustatymo įrenginys pagal HRC skalę</p>
-              <p className="tables-body__column--other_p">Rankinis lakštų valcavimo įrenginys (plotis 1000 mm)</p>
-              <p className="tables-body__column--other_p">Lenkimo įrenginys (plotis 700mm)</p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_01`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_02`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_03`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_04`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_05`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_06`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_07`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_08`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_09`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_10`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_11`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_12`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_13`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_14`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_15`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_16`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_17`) } </p>
+              <p className="tables-body__column--other_p"> { t(`tables.other.other-equipment_18`) } </p>
             </td>
           </tr>
         </tbody>

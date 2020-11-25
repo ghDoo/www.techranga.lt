@@ -30,8 +30,14 @@
         font-family: Montserrat-Bold;
         font-size: 0.8vw;
         color: #ffffff;
-        text-decoration: none;
       }
+    }
+
+    &__title--btn {
+      background-color: rgb(106, 171, 218);
+      font-family: Montserrat-Bold;
+      font-size: 0.8vw;
+      padding: 2vh;
     }
   }
 
@@ -67,6 +73,15 @@
         }
       }
     }
+  }
+}
+
+.active {
+  background-color: rgba(38,72,150,1);
+
+  &-btn {
+
+    color: #ffffff;
   }
 }
 

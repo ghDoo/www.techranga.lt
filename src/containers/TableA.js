@@ -13,22 +13,22 @@ const Tables = () => {
       <table className="tables-wrapper">
         <thead className="tables-header">
           <tr className="tables-header__row">
-            <th className="tables-header__title" colSpan="2">
-              <Link className="tables-header__title--button" to='/milling'> Frezavimo staklės </Link>
+            <th className="tables-header__title--btn active" colSpan="2">
+              <Link className="tables-header__title--button active-btn" to='/milling'> { t(`tables.milling.milling-title`) } </Link>
             </th>
-            <th className="tables-header__title" colSpan="2">
-              <Link className="tables-header__title--button" to='/turning'> Tekinimo staklės </Link>
+            <th className="tables-header__title--btn" colSpan="2">
+              <Link className="tables-header__title--button" to='/turning'> { t(`tables.turning.turning-title`) } </Link>
             </th>
-            <th className="tables-header__title" colSpan="2">
-              <Link className="tables-header__title--button" to='/other'> Kiti įrenginiai </Link>
+            <th className="tables-header__title--btn" colSpan="2">
+              <Link className="tables-header__title--button" to='/other'> { t(`tables.other.other-title`) } </Link>
             </th>
           </tr>
         </thead>
         <thead className="tables-header">
           <tr className="tables-header__row">
-            <th className="tables-header__title">Frezavimo staklės</th>
-            <th className="tables-header__title">Ašys</th>
-            <th className="tables-header__title">Darbinis paviršius</th>
+            <th className="tables-header__title"> { t(`tables.milling.milling-title`) } </th>
+            <th className="tables-header__title"> { t(`tables.milling.milling-th_01`) } </th>
+            <th className="tables-header__title"> { t(`tables.milling.milling-th_02`) } </th>
             <th className="tables-header__title">X</th>
             <th className="tables-header__title">Y</th>
             <th className="tables-header__title">Z</th>
