@@ -6,6 +6,7 @@
     "parts": "Herstellung von Bauteilen",
     "automation": "Automatisierung",
     "projects": "Abgeschlossene Projekte",
+    "es_projects": "EU projekte",
     "contacts": "Kontakte"
   },
   "home": {
@@ -62,6 +63,17 @@
   },
   "projects": {
     "text01": "Mehr auf:"
+  },
+  "es_projects": {
+    "title": "EU Projekte",
+    "project_title": "Projekt: Einsatz digitaler Technologien in „Techranga“ UAB",
+    "project_text": "„Techranga“ UAB projektiert und entwickelt die Einrichtungen bzw. Teile, erbringt mechanische Bearbeitungsdienstleistungen sowie führt die Automatisierungsprojekte für verschiedene Industrieunternehmen durch. Die Produktion erfolgt von dem kleinsten Teil bis zur Produktionslinie. Die Teile werden sowie in Stücken, als auch in größeren Mengen produziert. „Techranga“ UAB schenkt besondere Beachtung für die Qualität des Arbeitsplatzes, Umweltschutz, Sicherheit und Gesundheit der Arbeitnehmer. Im Anstreben ihre Marktpositionen zu stärken und die Bedürfnisse ihrer Kunden zu befriedigen, hat das Unternehmen vor, effizientere Produktionsanlagen einzuführen und zur Automatisierung des ganzen Produktionsprozesses zu übergehen. Das Unternehmen plant auch die Modernisierung des Produktionsprozesses, um das Wettbewerbspotenzial des Unternehmens zu erhöhen. Im Laufe des Projekts werden auf Grundlage von Empfehlungen der vorgenommenen Technologieprüfungen neue digitale Lösungen umgesetzt, die zur Optimierung der Produktionsprozesse im Unternehmen, zur Einschätzung von Möglichkeiten für die Digitalisierung der Produktionsprozesse, zur Erhöhung der Arbeitsproduktivität, Wettbewerbsfähigkeit des Unternehmens sowie Produktivität beitragen werden. Das Projekt wird aus dem Europäischen Fonds für regionale Entwicklung (EFRE) finanziert.",
+    "project_nr": "Projektnummer: Nr. 03.3.1-LVPA-K-854-02-0122",
+    "project_name": "Bezeichnung des Projekts: Einsatz digitaler Technologien in „Techranga“ UAB",
+    "project_info": "Maßnahme: gemäß der Priorität 3 „Förderung der Wettbewerbsfähigkeit kleiner und mittlerer Unternehmen“ des Investitionsprogramms der Europäischen Union 2014-2020, Maßnahme Nr. 03.3.1-LVPA-K-854 „Industrielle Digitalisierung LT“",
+    "project_date": "Die Laufzeit des Projekts: vom 03.06.2020 bis zum 22.03.2023",
+    "project_sum": "Der vorgesehene Finanzierungsbetrag: 163.828,85 EUR",
+    "project_img": "de"
   },
   "contacts": {
     "title": "UAB „Techranga“",

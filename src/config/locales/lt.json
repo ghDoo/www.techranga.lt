@@ -6,6 +6,7 @@
     "parts": "Detalės",
     "automation": "Automatika",
     "projects": "Įvykdyti projektai",
+    "es_projects": "ES projektai",
     "contacts": "Kontaktai"
   },
   "home": {
@@ -62,6 +63,17 @@
   },
   "projects": {
     "text01": "Daugiau informacijos rasite:"
+  },
+  "es_projects": {
+    "title": "ES Projektai",
+    "project_title": "Projektas: Skaitmeninių technologijų diegimas UAB „Techranga“",
+    "project_text": "UAB „Techranga“ projektuoja ir gamina įrenginius, detales, teikia mechaninio apdirbimo paslaugas bei vykdo automatizacijos projektus įvairių pramonės šakų įmonėms. Gamyba vykdoma nuo mažos detalės iki gamybinės linijos. Detalės gaminamos tiek vienetais, tiek didesniais kiekiais. UAB „Techranga“ ypatingą dėmesį skiria darbų kokybei, aplinkos apsaugai bei darbuotojų saugai ir sveikatai.  Siekdama sustiprinti savo pozicijas rinkoje ir patenkinti klientų poreikius, įmonė planuoja įsidiegti našesnę gamybos įrangą automatizuojant visą gamybą. Siekiant padidinti įmonės konkurencingumo potencialą įmonė planuoją modernizuoti gamybos procesą. Projekto metu remiantis atliktomis technologinio audito rekomendacijomis bus diegiami nauji skaitmeniniai sprendimai, kurie padės optimizuoti įmonėje vykstančius gamybos procesus, įsivertinti gamybinių procesų skaitmenizavimo galimybes, padidinti darbo našumą, įmonės konkurencingumą bei produktyvumą. Projektas finansuojamas iš Europos Regioninės plėtros fondo.",
+    "project_nr": "Projekto numeris: Nr. 03.3.1-LVPA-K-854-02-0122",
+    "project_name": "Projekto pavadinimas: Skaitmeninių technologijų diegimas UAB „Techranga“",
+    "project_info": "Priemonė – pagal 2014–2020 metų Europos Sąjungos fondų investicijų veiksmų programos 3 prioriteto „Smulkiojo ir vidutinio verslo konkurencingumo skatinimas“ priemonę Nr. 03.3.1-LVPA-K-854 „Pramonės skaitmeninimas LT“",
+    "project_date": "Projekto veiklų įgyvendinimo trukmė: nuo 2020-06-03 iki 2023-03-22",
+    "project_sum": "Skirta finansavimo suma: 163 828,85 EUR",
+    "project_img": "lt"
   },
   "contacts": {
     "title": "UAB „Techranga“",

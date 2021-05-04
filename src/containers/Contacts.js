@@ -31,6 +31,10 @@ const Contacts = () => {
           <div className="contacts-content__facebook_logo"></div>
           <a className="contacts-content__facebook_text" href="https://www.facebook.com/Ttechranga/" target="_blank" rel="noopener noreferrer nofollow"> Techranga </a>
         </div>
+        <div className="contacts-content__linkedin">
+          <div className="contacts-content__linkedin_logo"></div>
+          <a className="contacts-content__linkedin_text" href="https://www.linkedin.com/company/techranga/" target="_blank" rel="noopener noreferrer nofollow"> Techranga </a>
+        </div>
       </div>
       <div className="contacts-media">
         <iframe className="contacts-media__map"

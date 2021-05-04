@@ -30,6 +30,9 @@ const Nav = () => {
           <Link className="header-nav__item_button--link" to='/projects'> { t(`navigation.projects`) } </Link>
         </li>
         <li className='header-nav__item_button'>
+          <Link className="header-nav__item_button--link" to='/es_projects'> { t(`navigation.es_projects`) } </Link>
+        </li>
+        <li className='header-nav__item_button'>
           <Link className="header-nav__item_button--link" to='/contacts'> { t(`navigation.contacts`) } </Link>
         </li>
       </ul>

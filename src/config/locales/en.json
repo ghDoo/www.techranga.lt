@@ -6,6 +6,7 @@
     "parts": "Parts",
     "automation": "Automation",
     "projects": "Completed projects",
+    "es_projects": "EU projects",
     "contacts": "Contacts"
   },
   "home": {
@@ -62,6 +63,17 @@
   },
   "projects": {
     "text01": "More on:"
+  },
+  "es_projects": {
+    "title": "EU Projects",
+    "project_title": "Project: Introduction of digital technologies in Techranga, UAB",
+    "project_text": "Techranga, UAB designs and manufactures equipment and parts, provides machanical proccesing services and carries out automation projects for companies in various industries. The manufacture is carried out from a small part to a production line. The parts are manufactured in both units and larger quantities. Techranga, UAB pays special attention to the quality of works, environmental protection as well as safety and health of their employees.  In order to strengthen its position in the market and meet the needs of customers, the company plans to install more efficient manufacturing equipment by automating the entire manufacture. Pursuing to increase the competitiveness potential of the company, there is being planned to modernise the manufacturing process. During the project, based on the recommendations of the technological audit, new digital solutions will be introduced, which will help to optimise manufacturing processes of the company, self-assess the possibilities of digitisation of manufacturing processes, increase workforce efficiency, as well as competitiveness and productivity of the company. The project is funded by the European Regional Development Fund.",
+    "project_nr": "Project number: Nr. 03.3.1-LVPA-K-854-02-0122",
+    "project_name": "Title of the project: Introduction of digital technologies in Techranga, UAB",
+    "project_info": "The measure - in accordance with the measure No. 03.3.1-LVPA-K-854 „Industrial Digitization LT“ of the European Union Funds Investment Operational Programme for 2014–2020, Priority 3 “Promotion of Small and Medium Business Competitiveness”",
+    "project_date": "Duration of implementation of the project activities: from 03/06/2020 to 22/03/2023",
+    "project_sum": "Allocated amount of funding: EUR 163,828.85",
+    "project_img": "en"
   },
   "contacts": {
     "title": "UAB „Techranga“",

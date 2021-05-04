@@ -14,12 +14,22 @@ const Footer = () => {
           <a className="footer-contacts__phone_text" href="tel:+37037451569" rel="noopener noreferrer nofollow"> +370 37 451569 </a>
         </div>
         <div className="footer-contacts__facebook">
-          <div className="footer-contacts__facebook_logo"></div>
-          <a className="footer-contacts__facebook_text" href="https://www.facebook.com/Ttechranga/" target="_blank" rel="noopener noreferrer nofollow"> Techranga </a>
+          <p className="footer-contacts__facebook_text">Techranga</p>
+          <a href="https://www.linkedin.com/company/techranga/" target="_blank" rel="noopener noreferrer nofollow">
+            <div className="footer-contacts__linkedin_logo"></div>
+          </a>
+          <a href="https://www.facebook.com/Ttechranga/" target="_blank" rel="noopener noreferrer nofollow"> 
+            <div className="footer-contacts__facebook_logo"></div>
+          </a>
         </div>
+        {/* <div className="footer-contacts__linkedin">
+          <div className="footer-contacts__linkedin_logo"></div>
+          <a className="footer-contacts__linkedin_text" href="https://www.linkedin.com/company/techranga/" target="_blank" rel="noopener noreferrer nofollow"> Techranga </a>
+        </div> */}
       </div>
   </footer>
   );
 };
 
 export default Footer;
+

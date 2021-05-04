@@ -43,6 +43,11 @@ const MobileNav = () => {
           </Link>
         </li>
         <li className={ `${active ? "mobile-nav__button" : "hide" }` }>
+          <Link className={ `${active ? "mobile-nav__button_link" : "hide" }` } to='/es_projects'> 
+            { t(`navigation.es_projects`) } 
+          </Link>
+        </li>
+        <li className={ `${active ? "mobile-nav__button" : "hide" }` }>
           <Link className={ `${active ? "mobile-nav__button_link" : "hide" }` } to='/contacts'> 
             { t(`navigation.contacts`) }
           </Link>

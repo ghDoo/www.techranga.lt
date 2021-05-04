@@ -152,6 +152,32 @@
         width: 60%;
       }
     }
+
+    &__linkedin {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5px;
+      width: 100%;
+
+      &_logo {
+        background-image: url(../../assets/linkedIn_logo.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 50%;
+        width: 40%;
+      }
+
+      &_text {
+        font-family: Montserrat-SemiBold;
+        font-size: 0.8vw;
+        color: #000000;
+        padding: 10px;
+        text-decoration: none;
+        width: 60%;
+      }
+    }
   }
 
   &-media {
@@ -217,7 +243,7 @@
           font-size: 3vw;
         }
       }
-      &__email, &__phone, &__facebook {
+      &__email, &__phone, &__facebook, &__linkedin {
         &_text {
           font-size: 3vw;
         }
@@ -245,7 +271,7 @@
           font-size: 2vw;
         }
       }
-      &__email, &__phone, &__facebook {
+      &__email, &__phone, &__facebook, &__linkedin {
         &_text {
           font-size: 2vw;
         }

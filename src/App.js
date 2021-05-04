@@ -9,6 +9,7 @@ const Equipment = lazy(() => import('./containers/Equipment'));
 const Parts = lazy(() => import('./containers/Parts'));
 const Automation = lazy(() => import('./containers/Automation'));
 const CompletedProjects = lazy(() => import('./containers/CompletedProjects'));
+const EsProjects = lazy(() => import('./containers/EsProjects'));
 const Contacts = lazy(() => import('./containers/Contacts'));
 const Footer = lazy(() => import('./Components/Footer/index'));
 
@@ -50,6 +51,7 @@ const App = () => {
             <Route path='/parts' component={ Parts } />
             <Route path='/automation' component={ Automation } />
             <Route path='/projects' component={ CompletedProjects } />
+            <Route path='/es_projects' component={ EsProjects } />
             <Route path='/contacts' component={ Contacts } />
           </Switch>
           <Footer />

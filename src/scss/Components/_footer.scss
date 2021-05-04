@@ -99,6 +99,22 @@
         text-decoration: none;
       }
     }
+
+    &__linkedin {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0.5vw;
+
+      &_logo {
+        background-image: url('../../assets/linkedIn_logo.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 3vh;
+        width: 3vw;
+      }
+    }
   }
 }
 
@@ -110,6 +126,7 @@
     &-contacts {
       justify-content: space-around;
       width: 100%;
+
       &__email, &__phone, &__facebook {
         &_logo {
           margin: 0;
@@ -117,8 +134,18 @@
           height: 4vh;
           width: 4vw;
         }
+        
         &_text {
           display: none;
+        }
+      }
+
+      &__linkedin {
+        &_logo {
+          margin: 0;
+          padding: 0;
+          height: 6vh;
+          width: 6vw;
         }
       }
     }
@@ -130,9 +157,11 @@
     &-trademark {
       display: none;
     }
+
     &-contacts {
       justify-content: space-around;
       width: 100%;
+
       &__email, &__phone, &__facebook {
         &_logo {
           margin: 0;
@@ -140,8 +169,18 @@
           height: 4vh;
           width: 4vw;
         }
+
         &_text {
           display: flex;
+        }
+      }
+
+      &__linkedin {
+        &_logo {
+          margin: 0;
+          padding: 0;
+          height: 6vh;
+          width: 6vw;
         }
       }
     }
