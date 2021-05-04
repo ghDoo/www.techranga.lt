@@ -1,0 +1,113 @@
+.tables {
+  display: flex;
+  grid-area: cont;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url('../../assets//tables_4k.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  &-wrapper {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(38,72,150,1); 
+    box-shadow: 0px 0px 10px 0px rgba(38,72,150,1);
+  }
+
+  &-header {
+    &__title {
+      background-color: rgba(38,72,150,1);
+      font-family: Montserrat-Bold;
+      font-size: 0.8vw;
+      color: #ffffff;
+      padding: 2vh;
+
+      &--button {
+        font-family: Montserrat-Bold;
+        font-size: 0.8vw;
+        color: #ffffff;
+      }
+    }
+
+    &__title--btn {
+      background-color: rgb(106, 171, 218);
+      font-family: Montserrat-Bold;
+      font-size: 0.8vw;
+      padding: 2vh;
+    }
+  }
+
+  &-body {
+    &__row:nth-child(odd) {
+      background-color: rgb(106, 171, 218);
+    }
+
+    &__row:nth-child(even) {
+      background-color: rgb(195, 225, 247);
+    }
+
+    &__column {
+      padding: 2vh;
+
+      &--title {
+        background-color: rgba(38,72,150,1);
+        font-family: Montserrat-Bold;
+        font-size: 0.8vw;
+        color: #ffffff;
+        padding: 2vh;
+      }
+
+      &--other {
+        background-color: rgba(38,72,150,1);
+        font-family: Montserrat-SemiBold;
+        font-size: 0.7vw;
+        color: #ffffff;
+        padding: 1vh;
+
+        &_p {
+          padding: 0.5vh;
+        }
+      }
+    }
+  }
+}
+
+.active {
+  background-color: rgba(38,72,150,1);
+
+  &-btn {
+
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tables {
+    &-header {
+      &__title {
+        font-size: 1.8vw;
+  
+        &--button {
+          font-size: 2vw;
+        }
+      }
+    }
+
+    &-body {
+      &__column {
+  
+        &--title {
+          font-size: 1.8vw;
+        }
+  
+        &--other {
+          font-size: 1.5vw;
+        }
+      }
+    }
+  }
+}

@@ -1,14 +1,29 @@
+.about-certificate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.5);;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  &__image {
+    object-fit: contain;
+    height: 90%;
+    max-width: 90%;
+    cursor: pointer;
+  }
+}
+
 .about {
   display: flex;
   grid-area: cont;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
   margin: 10px;
+  overflow: hidden;
 
   &-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     padding: 2vh 3vw;
     width: 50%;
 
@@ -21,51 +36,47 @@
     &__text::first-letter {
       padding-left: 50px;
     }
-    
-    &__iso {
+
+    &__certificate {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-around;
       margin-top: 3vh;
-      width: 80%;
+      height: 30%;
+      width: 100%;
 
-      &_logo {
-        background-image: url(../../assets/iso_logo_2x.jpg);
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 50%;
+      &--img {
+        object-fit: contain;
+        height: 100%;
         width: 30%;
+        cursor: pointer;
       }
+    }
 
-      &_wrap {
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
+    &__tables {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 3vh;
+      width: 100%;
+
+      &--text {
+        color: #264896;
+        font-family: Montserrat-SemiBold;
+        font-size: 0.8vw;
         text-align: left;
-        width: 50%;
-
-        &--number {
-          font-family: Montserrat-Bold;
-          font-size: 0.8vw;
-        }
+        text-decoration: underline;
       }
     }
   }
 
   &-media {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../../assets/about_us_2x.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
       -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,1);
       -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,1);
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,1);
-    margin: 2vh 3vw;
-    width: 50%;
+    height: 80%;
+    object-fit: cover;
+    overflow: hidden;
   }
 }
 
@@ -79,15 +90,10 @@
         font-size: 3vw;
       }
 
-      &__iso {
-        &_logo {
-          background-image: url(../../assets/iso_logo_1x.jpg);
-        }
-
-        &_wrap {
-          &--number {
-            font-size: 3vw;
-          }
+      &__tables {
+  
+        &--text {
+          font-size: 3vw;
         }
       }
     }   
@@ -112,44 +118,6 @@
       &__text {
         font-size: 1vw;
       }
-
-      &__iso {
-        &_logo {
-          background-image: url(../../assets/iso_logo_1x.jpg);
-        }
-
-        &_wrap {
-          &--number {
-            font-size: 1vw;
-          }
-        }
-      }
-
-      &-media {
-        background-image: url(../../assets/about_us_1x.jpg);
-      }
-    }
-  }
-}
-
-@media (max-width: 500px) {
-  .about {
-    &-content {
-      &__iso {
-        &_logo {
-          background-image: url(../../assets/iso_logo_05x.jpg);
-        }
-
-        &_wrap {
-          &--number {
-            font-size: 3vw;
-          }
-        }
-      }
-    }   
-    
-    &-media {
-      background-image: url(../../assets/about_us_05x.jpg);
     }
   }
 }

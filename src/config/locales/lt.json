@@ -80,5 +80,39 @@
     "text01": "Įmonės kodas: 300556637",
     "text02": "PVM mokėtojo kodas: LT 100002311019",
     "address": "LT-51241 Kaunas, Lietuva"
+  },
+  "tables": {
+    "link": "TECHNINIAI PAJĖGUMAI",
+    "milling": {
+      "milling-title": "FREZAVIMO STAKLĖS",
+      "milling-th_01": "Ašys",
+      "milling-th_02": "Darbinis paviršius"
+    },
+    "turning": {
+      "turning-title": "TEKINIMO STAKLĖS",
+      "turning-th_01": "Diametras",
+      "turning-th_02": "Ilgis"
+    },
+    "other": {
+      "other-title": "KITI ĮRENGINIAI",
+      "other-equipment_01": "Koordinatinio ištekinimo staklės MAHO MH800P (1150x700mm)",
+      "other-equipment_02": "Apvalaus šlifavimo staklės 3U13DF11 (Ø200x500mm)",
+      "other-equipment_03": "Plokščio šlifavimo staklės 3L722 (1100x320x280mm)",
+      "other-equipment_04": "Elektroerozinės staklės (400x800mm)",
+      "other-equipment_05": "Elektroerozinės staklės SP150",
+      "other-equipment_06": "Juostinės pjovimo staklės Pegas Gonda 220x250 GH-R",
+      "other-equipment_07": "Vertikalaus drožimo staklės Kommunar 7A420 (Ø500x200mm)",
+      "other-equipment_08": "Vertikalios gręžimo staklės, 2 vnt.",
+      "other-equipment_09": "Presas (alkūninis) (100T, 850x560mm)",
+      "other-equipment_10": "Presas (hidraulinis) (30T, 995x1000mm)",
+      "other-equipment_11": "Presas (rankinis) (435x325mm)",
+      "other-equipment_12": "Galandinimo staklės, 2 vnt.",
+      "other-equipment_13": "Elektrinė krosnis SNOL 10/1200 (1200°C, 295x420x295mm)",
+      "other-equipment_14": "Elektrinė krosnis SNOL 1 6.2.5.1/9-IZ (900°C, 170x295x115mm)",
+      "other-equipment_15": "Smėliapūtė SBC350 (945x605x580mm)",
+      "other-equipment_16": "Kietumo nustatymo įrenginys pagal HRC skalę",
+      "other-equipment_17": "Rankinis lakštų valcavimo įrenginys (plotis 1000 mm)",
+      "other-equipment_18": "Lenkimo įrenginys (plotis 700mm)"
+    }
   }
 }

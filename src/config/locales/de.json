@@ -80,5 +80,39 @@
     "text01": "Handelsregisternummer: 300556637",
     "text02": "MwSt.-Nr.: LT 100002311019",
     "address": "LT-51241 Kaunas, Litauen"
+  },
+  "tables": {
+    "link": "TECHNISCHE KAPAZITÄT",
+    "milling": {
+      "milling-title": "FRÄSMASCHINEN",
+      "milling-th_01": "Achsen",
+      "milling-th_02": "Arbeitsfläche"
+    },
+    "turning": {
+      "turning-title": "DREHMASCHINEN",
+      "turning-th_01": "Durchmesser",
+      "turning-th_02": "Länge"
+    },
+    "other": {
+      "other-title": "ANDERE MASCHINEN",
+      "other-equipment_01": "Koordinatenbohrmaschinen MAHO MH800P (1150x700mm)",
+      "other-equipment_02": "Rundschleifmaschinen 3U13DF11 (Ø200x500mm)",
+      "other-equipment_03": "Flachschleifmaschinen 3L722 (1100x320x280mm)",
+      "other-equipment_04": "Drahterodieren (400x800mm)",
+      "other-equipment_05": "Drahterodieran SP150",
+      "other-equipment_06": "Band Sah Schneiden Maschine Pegas Gonda 220x250 GH-R",
+      "other-equipment_07": "Vertikale Schnitzmaschine Kommunar 7A420 (Ø500x200mm)",
+      "other-equipment_08": "Standbohrmaschine, 2 Stk.",
+      "other-equipment_09": "Exzentrische Presse (100T, 850x560mm)",
+      "other-equipment_10": "Hydraulikpresse (30T, 995x1000mm)",
+      "other-equipment_11": "Handpresse (435x325mm)",
+      "other-equipment_12": "Schärfmaschinen, 2 Stk.",
+      "other-equipment_13": "Hochpräzise Elektroofen SNOL 10/1200 (1200°C, 295x420x295mm)",
+      "other-equipment_14": "Hochpräzise Elektroofen SNOL 1 6.2.5.1/9-IZ (900°C, 170x295x115mm)",
+      "other-equipment_15": "Wasser Sandstrahlen Maschine SBC350 (945x605x580mm)",
+      "other-equipment_16": "Härteprüfer Maschinen",
+      "other-equipment_17": "Blechwaltzmaschine (Breite 1000 mm)",
+      "other-equipment_18": "Biegevorrichtung (Breite 700mm)"
+    }
   }
 }
